@@ -1,3 +1,3 @@
-Jonathan Ponce
-Pablo Pezoa
+Jonathan Ponce,
+Pablo Pezoa,
 Cristian Pittoors
