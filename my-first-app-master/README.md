@@ -1,27 +1,19 @@
-# MyFirstApp
+# Identificación de funcionalidades
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+**Interfaz registrarse:**<br>
+Formulario registrarse función de crear: se almacena la información necesaria para la creación de una cuenta única.<br>
+Formulario ingresar función de lectura: se lee la información la cual se comprueba que sea válida para después entrar a su galería personal.
 
-## Development server
+**Interfaz tu huella de carbono:**<br>
+Carrusel de preguntas función de crear: se almacena las respuestas para poder generar un diagnóstico respecto a la huella de carbono del usuario.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Interfaz compensar:**<br>
+Galería con filtro función de crear, eliminar y actualizar: Se permite al usuario una vez dentro de su perfil añadir, eliminar o actualizar imágenes de la manera que estime conveniente.
 
-## Code scaffolding
+**Interfaz de contacto:**<br>
+Formulario información de contacto función de crear: aquí se escribe un pregunta con datos necesarios para poder responder a la inquietud<br>
+TextArea comente función de crear: El usuario escribe su inquietud y esta es almacenada.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# link figma
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://www.figma.com/file/9IQQlcSvFLwFx5ad3Wj4Sy/Interfaces?node-id=0%3A1
