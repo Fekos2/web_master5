@@ -1,0 +1,86 @@
+.container-fluid {
+    background-image: url("../../assets/Icono/Rectangle 1.svg"), url("../../assets/Icono/Rectangle_verde.svg"), 
+    url("../../assets/img/environmental-conservation-in-the-garden-for-children.jpg");
+    background-repeat: no-repeat;
+    background-position-y:  -38vh, bottom, bottom;
+    background-size: auto,auto,100%;
+    /*<select id="select">     <option>normal</option>    
+     <option>multiply</option>     <option selected>screen</option>  
+        <option>overlay</option>     <option>darken</option>    
+         <option>lighten</option>     <option>color-dodge</option>   
+           <option>color-burn</option>     <option>hard-light</option>  
+              <option>soft-light</option>     <option>difference</option>   
+                <option>exclusion</option>     <option>hue</option>     <option>saturation</option>    
+                 <option>color</option>     <option>luminosity</option> </select>*/
+    min-height: 94vh;
+
+    color: white;
+
+    padding-top: 1vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    padding-top: 5vh;
+    padding-left: 6vh;
+}
+
+#noHuella {
+    background-color: #136F63;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#huella {
+    background-color: #FF6542;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lol {
+    height: 50px;
+    width: 50px;
+    background-color: #FF6542;
+    color: #000000;
+    border-radius: 5px;
+    border-color: #FF6542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha {
+    height: 30px;
+}
+
+.card {
+    color: black;
+    text-align: justify;
+    border-color: #ff6542;
+    margin-right: 120px;
+}
+
+.t {
+    margin-left: 50px;
+}
+
+h2 {
+    color: #ff6542;
+    font-weight:bold;
+}
+
+.main {
+    margin-top: 90px;
+}
+
+button {
+    height: 60px;
+    width: 146px;
+    background-color: #FF6542;
+}

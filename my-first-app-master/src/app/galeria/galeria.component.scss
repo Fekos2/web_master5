@@ -1,0 +1,57 @@
+.container-fluid {
+    background-image: url("../../assets/Icono/Rectangle 1.svg");
+    background-repeat: no-repeat;
+    background-position-y:  -12vh;
+
+    padding-top: 20vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    height: 360px;
+    width: 100%;
+}
+
+.row {
+    background-color: black;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.subnav {
+    background-color: #f68e5f;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.forma {
+    height: 100%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: #f68e5f;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+
+button:hover {
+    border-color: black;
+}
+
+h2 {
+    color: #ff6542;
+    font-weight:bold;
+}
+.t {
+    margin-right: auto;
+    margin-left: auto;
+}

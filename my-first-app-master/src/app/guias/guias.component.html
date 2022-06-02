@@ -1,0 +1,174 @@
+<!--<div class="texto pt-2 mt-5">
+    <p class="ml-5 text-uppercase text-left"><b>Recicables Organicos</b></p>
+</div> 
+<div class="container-fluid" *ngFor="let data of reciclables.organicos">
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.residuosAlimenticios[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.residuosAlimenticios[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.papelYcarton[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.papelYcarton[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.textil[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.textil[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.otrosOrganicos[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.otrosOrganicos[0].descripcion}}</p>
+            </div>
+        </div>
+</div>-->
+<!---->
+<!---->
+<!--
+<div class="texto pt-2 mt-5">
+    <p class="ml-5 text-uppercase text-left"><b>Recicables no Organicos</b></p>
+</div> 
+<div class="container-fluid" *ngFor="let data of reciclables.noOrganicos">
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.plastico[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.plastico[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.vidrio[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.vidrio[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.metales[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.metales[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.envasesTetraPak[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.envasesTetraPak[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.Aluminio[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.Aluminio[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.otrosInorganicos[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.otrosInorganicos[0].descripcion}}</p>
+            </div>
+        </div>
+</div>-->
+<!----><!---->
+<!----><!---->
+<!----><!---->
+<!--
+<div class="texto pt-2 mt-5">
+    <p class="ml-5 text-uppercase text-left"><b>No recicbles</b></p>
+</div> 
+<div class="container-fluid" *ngFor="let data of reciclables.noReciclable">
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.ResiduoSanitarios[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.ResiduoSanitarios[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.residuosFino[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.residuosFino[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.residuosElectronicos[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.residuosElectronicos[0].descripcion}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: red;">
+                <p>{{data.varios[0].nombre}}</p>
+            </div>
+            <div class="col" style="background-color: green;">
+               <p>{{data.varios[0].descripcion}}</p>
+            </div>
+        </div>
+</div>-->
+
+<div class="container-fluid mb-5">
+    <div class="titulo"><b class="titulo-lista">Tipo de reciclables</b></div>
+
+    <div class="texto">
+        <p class="text-uppercase subtitulo-lista"><b>Recicables Organicos</b></p>
+    </div> 
+    <div class="row" *ngFor="let data_2 of reciclables_2.organicos; let i = index">
+        <div class="col ">
+            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
+        </div>
+        <div class="col ">
+            <p>{{data_2.descripcion}}</p>
+        </div>
+    </div>
+
+    <div class="texto">
+        <p class="text-uppercase subtitulo-lista"><b>Recicables No Organicos</b></p>
+    </div> 
+    <div class="row" *ngFor="let data_2 of reciclables_2.noOrganicos; let i = index">
+        <div class="col">
+            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg"/></p>
+        </div>
+        <div class="col">
+           <p> {{data_2.descripcion}}</p>
+        </div>
+    </div>
+
+    <div class="texto">
+        <p class="ml-5 text-uppercase text-left"><b>No Reciclable</b></p>
+    </div> 
+    <div class="row" *ngFor="let data_2 of reciclables_2.noReciclable; let i = index">
+        <div class="col">
+            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
+        </div>
+    <div class="col">
+           <p> {{data_2.descripcion}}</p>
+        </div>
+    </div>
+</div>

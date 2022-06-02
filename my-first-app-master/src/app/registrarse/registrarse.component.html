@@ -1,0 +1,44 @@
+<div class="container-fluid pt-5">
+    <div class="row">
+        <div class="col mt-5 ms-5">
+            <div class="texto pt-2 ">
+                <p><b [ngStyle]="{'font-family': 'Raleway' }">REGISTRATE</b></p>
+            </div>
+            <form> 
+                <div class="forma mb-5 text-uppercase mt-5">
+                    <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
+                    <input name="name" type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp">
+                </div>
+                <div class="forma mb-5 text-uppercase">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input name="email" type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="forma mb-5 text-uppercase">
+                    <label for="exampleInputEmail1" class="form-label">Numero de telefono</label>
+                    <input name="cellphone" type="tel" pattern="9[0-9]{8}" class="form-control border border-danger" id="cellphone" aria-describedby="emailHelp">
+                </div>
+                <div class="forma row-1 text-center text-uppercase">
+                    <button type="submit" class="btn"><b>REGISTRATE</b></button>
+                </div>
+            </form>
+        </div>
+        <div class="col mt-5 me-5 ms-5">
+            <div class="texto pt-2">
+                <p><b>ACCEDER</b></p>
+            </div>
+            <form>
+                <div class="forma text-uppercase mt-5">
+                    <label for="foo" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp">
+                </div>
+                <div class="forma text-uppercase mt-5">
+                    <label for="foo" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="forma row-1 pt-5 text-center text-uppercase">
+                    <button type="submit" class="btn" routerLink="../compensar"><b>INGRESAR</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

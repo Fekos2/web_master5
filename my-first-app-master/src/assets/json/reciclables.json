@@ -1,0 +1,42 @@
+
+    [{
+        "Papel y carton":[{
+            "nombre": "servilletas",
+            "imagen": "servilletas.png"
+        },
+        {
+            "nombre": "Caja carton",
+            "imagen": "Caja carton.png"
+        }
+    ]
+    },
+    {
+        "Aluminio":[{
+            "nombre": "Lata",
+            "imagen": "Lata.png"
+        },
+        {
+            "nombre": "Papel plata",
+            "imagen": "Papel plata.png"
+        }]
+    },
+    { 
+        "plastico":[{
+            "nombre": "Botella plastica",
+            "imagen": "Botella plastica.png"
+        },
+        {
+            "nombre": "Bolsa plastica",
+            "imagen": "Bolsa plastica.png"
+        }]
+    },
+    {
+        "electronico":[{
+            "nombre": "Bateria",
+            "imagen": "Bateria.png"
+        },
+        {
+            "nombre": "Pila",
+            "imagen": "Pila.png"
+        }]
+    }]

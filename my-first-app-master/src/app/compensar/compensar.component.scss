@@ -1,0 +1,52 @@
+.container-fluid {
+    background-image: url("../../assets/Icono/Rectangle 1.svg");
+    background-repeat: no-repeat;
+    background-position-y:  -12vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #ff6542;
+    font-weight:bold;
+    margin-left: -6%;
+}
+
+button {
+    background-color: #63ff6b;
+    width: 260px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: #63ff6b;
+}
+
+.d-flex {
+    margin-right: 3%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul {
+    width: 260px;
+    background-color: #f2f2f2;
+}
+
+.dropdown-divider {
+    background-color: black;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin-left: 40%;
+    margin-top: 150px;
+}
+
+.imagen {
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 10%;
+    box-shadow: 5px 5px;
+}
