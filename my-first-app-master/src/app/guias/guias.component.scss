@@ -7,44 +7,69 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.texto {
-    color:#FF6542;
-}
-
 .row {
-    width: 1000px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    background-color: #FF6542;
+    width: 600px;
+    margin-left: 1px;
+    margin-bottom: 0px;
     text-align: center;
     vertical-align: center;
 }
 
-.col {
+.imagen {
     background-color: #63ff6b;
-    border-radius: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: auto;
+    float: right;
+    margin-right: 200px;
+}
+.imagen_2 {
+    background-color: #63ff6b;
+    width: auto;
+    float: right;
+    margin-top: 100px;
+}
+
+.imagen_3 {
+    background-color: #63ff6b;
+    width: auto;
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+
+.tabla {
+    background-color: #63ff6b;
+    border-radius: 1px;
     height: 50px;
     text-align: center;
     vertical-align: middle;
     color: black;
     font-weight: bold;
-}
-
-.titulo-lista{
-    margin-left: 23%;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 40px;
-    color: black;
-    background-color:  #63ff6b;
-    border-radius: 20px;
-    text-align: center;
-    vertical-align: middle;
+    border-style: groove;
+    border-color: #63ff6b;
 }
 
 .titulo{
-    width: 50%;
-    margin-left:130px;
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
     margin-bottom: 50px;
+}
+
+h2 {
+    color: #FF6542;
+    font-weight:bold;
+}
+
+.texto {
+    color:#FF6542;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+
+.nombre {
+    text-align: center;
+    vertical-align: middle;
 }

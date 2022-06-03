@@ -131,41 +131,70 @@
 </div>-->
 
 <div class="container-fluid mb-5">
-    <div class="titulo"><b class="titulo-lista">Tipo de reciclables</b></div>
+    <div class="titulo">
+        <h2>Tipo de reciclables</h2>
+    </div>
 
     <div class="texto">
         <p class="text-uppercase subtitulo-lista"><b>Recicables Organicos</b></p>
     </div> 
+
+    <div class="shadow imagen">
+        <img
+          src="assets/img/organico.jpg"
+          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
+    </div>
+
     <div class="row" *ngFor="let data_2 of reciclables_2.organicos; let i = index">
-        <div class="col ">
+        <div class="col nombre tabla">
             <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
         </div>
-        <div class="col ">
+        <div class="col tabla">
             <p>{{data_2.descripcion}}</p>
         </div>
     </div>
 
+    <!--
+    <div class="col">
+        <img
+          src="assets/img/organico.jpg"
+          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
+    </div>-->
+
     <div class="texto">
         <p class="text-uppercase subtitulo-lista"><b>Recicables No Organicos</b></p>
-    </div> 
+    </div>
+    <div class="shadow imagen_2">
+        <img
+          src="assets/img/images-_2_.png"
+          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
+    </div>
     <div class="row" *ngFor="let data_2 of reciclables_2.noOrganicos; let i = index">
-        <div class="col">
+        <div class="col nombre tabla">
             <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg"/></p>
         </div>
-        <div class="col">
+        <div class="col tabla">
            <p> {{data_2.descripcion}}</p>
         </div>
     </div>
+
 
     <div class="texto">
         <p class="ml-5 text-uppercase text-left"><b>No Reciclable</b></p>
     </div> 
     <div class="row" *ngFor="let data_2 of reciclables_2.noReciclable; let i = index">
-        <div class="col">
+        <div class="col nombre tabla">
             <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
         </div>
-    <div class="col">
+    <div class="col tabla">
            <p> {{data_2.descripcion}}</p>
         </div>
     </div>
+
+    <div class="shadow imagen_3">
+        <img
+          src="assets/img/residuos-no-reciclables.png"
+          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
+    </div>
+
 </div>
