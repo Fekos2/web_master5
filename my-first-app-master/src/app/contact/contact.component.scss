@@ -1,9 +1,9 @@
 .container-fluid {
     background-image: url("../../assets/Icono/Rectangle 1.svg");
     background-repeat: no-repeat;
-    background-position-y:  -38vh;
+    background-position-y:  -35vh;
 
-    min-height: 94vh;
+    min-height: 20vh;
     padding-top: 1vh;
     font-family: 'Raleway', sans-serif;
 }
@@ -48,3 +48,29 @@ label {
     color: #FF6542;
     font-weight: bold;
 }
+
+@media screen and (max-width: 720px) {
+    .container-fluid {
+        background-image: url("../../assets/Icono/Rectangle 1.svg");
+        background-repeat: no-repeat;
+        background-position-y:  -35vh;
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+    }
+
+    textarea {
+        height: 350px !important;
+        display: inline;
+        margin-top: 15%;
+    }
+
+    .texto {
+        width: 100% !important;
+    }
+
+    p {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+

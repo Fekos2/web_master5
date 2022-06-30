@@ -5,6 +5,7 @@
     min-height: 94vh;
     font-family: 'Raleway', sans-serif;
 }
+
 .texto{
     margin: auto;
     height: 40px;
@@ -15,6 +16,7 @@
     text-align: center;
     vertical-align: middle;
 }
+
 button {
     height: 70px;
     width: 200px;
@@ -24,5 +26,71 @@ button {
 }
 
 label{
+    font-weight: bold;
     color: #63FF6B;
+}
+/*
+@media screen and (max-width: 820px) {
+    .container-fluid {
+        background-image: url("../../assets/Icono/Rectangle 1.svg");
+        background-repeat: no-repeat;
+        background-position-y:  -35vh;
+        min-height: 90vh;
+        width: 104%;
+    }
+
+    .col {
+        margin-left: 27%!important;
+        margin-right: 100% !important;
+        //background-color: red;
+    }
+
+    .row {
+        //background-color: green;
+    }
+
+    label {
+        font-weight: bold;
+        color: #FF6542;
+    }
+
+}
+*/
+@media screen and (max-width: 720px) {
+    .container-fluid {
+        background-image: url("../../assets/Icono/Rectangle 1.svg");
+        background-repeat: no-repeat;
+        background-position-y:  -35vh;
+    }
+
+    .col {
+        margin: 0 !important;
+        padding: 0 !important;
+        //background-color: red;
+    }
+
+    .row {
+        //background-color: green;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    label {
+        font-weight: bold;
+        color: #FF6542;
+    }
+
+    .btn {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 20% !important;
+    }
+
+    .forma {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 10% !important;
+        margin-top: 10% !important;
+    }
+
 }

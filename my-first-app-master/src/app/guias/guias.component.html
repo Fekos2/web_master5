@@ -138,63 +138,72 @@
     <div class="texto">
         <p class="text-uppercase subtitulo-lista"><b>Recicables Organicos</b></p>
     </div> 
-
-    <div class="shadow imagen">
-        <img
-          src="assets/img/organico.jpg"
-          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
-    </div>
-
-    <div class="row" *ngFor="let data_2 of reciclables_2.organicos; let i = index">
-        <div class="col nombre tabla">
-            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
-        </div>
-        <div class="col tabla">
-            <p>{{data_2.descripcion}}</p>
-        </div>
-    </div>
-
-    <!--
-    <div class="col">
+<!----------------------------------------------------------------------------------------------->
+    <!--<div class="shadow imagen">
         <img
           src="assets/img/organico.jpg"
           class="shadow-1-strong rounded"alt="Reciclables organicos"/>
     </div>-->
-
+    <div class="grid">
+        <div class="grid_2" *ngFor="let data_2 of reciclables_2.organicos">
+            <div class="nombre tabla"><!--class="nombre tabla"-->
+                <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
+            </div>
+            <div class="tabla"><!--class="tabla"-->
+                <p>{{data_2.descripcion}}</p>
+            </div>
+        </div>
+        <div class="shadow imagen grid_3">
+            <img
+            src="assets/img/organico.jpg"
+            class="shadow-1-strong rounded imagen1"alt="Reciclables organicos"/>
+        </div>
+    </div>
+<!----------------------------------------------------------------------------------------------->
     <div class="texto">
         <p class="text-uppercase subtitulo-lista"><b>Recicables No Organicos</b></p>
     </div>
-    <div class="shadow imagen_2">
+    <!--<div class="shadow imagen_2">
         <img
           src="assets/img/images-_2_.png"
           class="shadow-1-strong rounded"alt="Reciclables organicos"/>
-    </div>
-    <div class="row" *ngFor="let data_2 of reciclables_2.noOrganicos; let i = index">
-        <div class="col nombre tabla">
-            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg"/></p>
+    </div>-->
+    <div class="grid2">
+        <div class="grid_2" *ngFor="let data_2 of reciclables_2.noOrganicos">
+            <div class="nombre tabla">
+                <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg"/></p>
+            </div>
+            <div class="tabla">
+               <p> {{data_2.descripcion}}</p>
+            </div>
         </div>
-        <div class="col tabla">
-           <p> {{data_2.descripcion}}</p>
+        <div class="shadow imagen_2">
+            <img
+              src="assets/img/images-_2_.png"
+              class="shadow-1-strong rounded imagen2"alt="Reciclables organicos"/>
         </div>
     </div>
-
+    
+<!----------------------------------------------------------------------------------------------->
 
     <div class="texto">
         <p class="ml-5 text-uppercase text-left"><b>No Reciclable</b></p>
     </div> 
-    <div class="row" *ngFor="let data_2 of reciclables_2.noReciclable; let i = index">
-        <div class="col nombre tabla">
-            <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
+    <div class="grid3">
+        <div class="grid_2" *ngFor="let data_2 of reciclables_2.noReciclable">
+            <div class="nombre tabla">
+                <p>{{data_2.nombre}}<img src="assets/Icono/arrow_2.svg" /></p>
+            </div>
+        <div class="tabla">
+               <p> {{data_2.descripcion}}</p>
+            </div>
         </div>
-    <div class="col tabla">
-           <p> {{data_2.descripcion}}</p>
+    
+        <div class="shadow imagen_3">
+            <img
+              src="assets/img/residuos-no-reciclables.png"
+              class="shadow-1-strong rounded imagen3"alt="Reciclables organicos"/>
         </div>
     </div>
-
-    <div class="shadow imagen_3">
-        <img
-          src="assets/img/residuos-no-reciclables.png"
-          class="shadow-1-strong rounded"alt="Reciclables organicos"/>
-    </div>
-
+<!----------------------------------------------------------------------------------------------->
 </div>

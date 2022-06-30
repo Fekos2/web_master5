@@ -20,7 +20,7 @@ export class GuiasComponent implements OnInit {
       "papelYcarton":[
         {
         "nombre":"Papel y Carton",
-        "descripcion":"Revistas,periodico,libros,materiales de embalaje, papel de oficina,cajas,carton corrugado,otros"}
+        "descripcion":"Revistas, periodico, libros, embalaje, papel de oficina,cajas,carton corrugado,otros"}
         ]
       ,
         "textil":[{
@@ -90,7 +90,7 @@ export class GuiasComponent implements OnInit {
       ,
       {
         "nombre":"Papel y Carton",
-        "descripcion":"Revistas,periodico,libros,materiales de embalaje, papel de oficina,cajas,carton corrugado,otros"
+        "descripcion":"Revistas,periodico,libros o papel,materiales de embalaje,cajas,carton corrugado,otros"
       }
       ,
       {

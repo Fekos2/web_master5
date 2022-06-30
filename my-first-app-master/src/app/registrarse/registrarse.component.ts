@@ -16,14 +16,13 @@ export class RegistrarseComponent implements OnInit {
     const data = new FormData(event.target);
     
     const value = JSON.stringify({'name': data.get('name'),'email':data.get('email'),'cellphone':data.get('cellphone')});
-    /*const value = {
-      'name': data.get('name'), 
-      'email': data.get('email'), 
-      'cellphone': data.get('cellphone')
-    };*/
-    console.log( value );
+    /* */  
+    fetch('http://localhost:4400/registrarse', {
+      method: 'post',
+      body: value
+    })
+    /* */
   }
-
   ngOnInit(): void {
     const form = document.querySelector('form')!;
     form.addEventListener('submit', this.handleSubmit);
