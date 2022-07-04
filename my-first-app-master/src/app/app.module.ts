@@ -13,6 +13,14 @@ import { CompensarComponent } from './compensar/compensar.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import { GuiasComponent } from './guias/guias.component';
 
+import { UsuariosService } from './services/usuarios.service';
+
+import { NgxCaptchaModule } from 'ngx-captcha';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { AdminComponent } from './admin/admin.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,13 +32,19 @@ import { GuiasComponent } from './guias/guias.component';
     GaleriaComponent,
     CompensarComponent,
     RegistrarseComponent,
-    GuiasComponent
+    GuiasComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxCaptchaModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    UsuariosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

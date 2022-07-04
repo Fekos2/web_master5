@@ -21,6 +21,13 @@
     grid-auto-flow: column;
 }
 
+.grid3 {
+    display: grid;
+    grid-template-columns:50%;
+    grid-template-rows: repeat(4,50px);
+    grid-auto-flow: column;
+}
+
 .grid_2 {
     display: grid;
     grid-template-columns: 50% 50%;

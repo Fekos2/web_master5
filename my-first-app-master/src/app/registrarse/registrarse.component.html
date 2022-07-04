@@ -7,18 +7,22 @@
             <form> 
                 <div class="forma mb-5 text-uppercase mt-5">
                     <label for="exampleInputEmail1" class="form-label">Nombre Completo</label>
-                    <input name="name" type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp">
+                    <input name="name" type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp" [(ngModel)]="game.Nombre">
                 </div>
                 <div class="forma mb-5 text-uppercase">
                     <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                    <input name="email" type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp">
+                    <input name="email" type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp" [(ngModel)]="game.Gmail">
                 </div>
                 <div class="forma mb-5 text-uppercase">
                     <label for="exampleInputEmail1" class="form-label">Numero de telefono</label>
-                    <input name="cellphone" type="tel" pattern="9[0-9]{8}" class="form-control border border-danger" id="cellphone" aria-describedby="emailHelp">
+                    <input name="cellphone" type="tel" pattern="9[0-9]{8}" class="form-control border border-danger" id="cellphone" aria-describedby="emailHelp" [(ngModel)]="game.Numero">
+                </div>
+                <div class="forma mb-5 text-uppercase">
+                    <label for="exampleInputEmail1" class="form-label">Contrasena</label>
+                    <input name="password" type="password" class="form-control border border-danger" id="password" aria-describedby="emailHelp" [(ngModel)]="game.Contrasena">
                 </div>
                 <div class="forma text-center text-uppercase btn">
-                    <button type="submit" class="btn"><b>REGISTRARSE</b></button>
+                    <button type="submit" class="btn Registrarse" (click)="saveNewGame()"><b>REGISTRARSE</b></button>
                 </div>
             </form>
         </div>
@@ -29,14 +33,19 @@
             <form>
                 <div class="forma text-uppercase mt-5">
                     <label for="foo" class="form-label">Nombre Completo</label>
-                    <input type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp">
+                    <input name="text" type="text" class="form-control border border-danger" id="name" aria-describedby="emailHelp" [(ngModel)]="datosIngreso.Nombre">
                 </div>
                 <div class="forma text-uppercase mt-5">
                     <label for="foo" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp">
+                    <input name="email" type="email" class="form-control border border-danger" id="email" aria-describedby="emailHelp" [(ngModel)]="datosIngreso.Gmail">
                 </div>
+                <div class="forma mb-5 text-uppercase mt-5">
+                    <label for="exampleInputEmail1" class="form-label">Contrasena</label>
+                    <input name="password" type="password" class="form-control border border-danger" id="password" aria-describedby="emailHelp" [(ngModel)]="datosIngreso.Contrasena">
+                </div>
+                <div class="g-recaptcha" data-sitekey="6Lec0LsgAAAAAONg4kpRt28dvPZ2d5DVlfad9hfI"></div>
                 <div class="forma pt-5 mb-5 text-center text-uppercase btn">
-                    <button type="submit" class="btn" routerLink="../compensar"><b>INGRESAR</b></button>
+                    <button type="submit" class="btn Ingresar" (click)="login()"><b>INGRESAR</b></button>
                 </div>
             </form>
         </div>

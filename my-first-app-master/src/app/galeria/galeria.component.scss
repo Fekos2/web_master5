@@ -56,24 +56,32 @@ h2 {
     margin-left: auto;
 }
 
-@media screen and (max-width: 820px) {
-    .container-fluid {
-        background-image: url("../../assets/Icono/Rectangle 1.svg");
-        background-repeat: no-repeat;
-        background-position-y:  -35vh;
-
-        padding-top: 38vh;
-        font-family: 'Raleway', sans-serif;
-        width: 104%;
-    }
-}
 @media screen and (max-width: 720px) {
     .container-fluid {
         background-image: url("../../assets/Icono/Rectangle 1.svg");
         background-repeat: no-repeat;
         background-position-y:  -35vh;
 
-        padding-top: 38vh;
+        padding-top: -35vh;
         font-family: 'Raleway', sans-serif;
+        width: 100% !important;
+    }
+    
+    .subnav {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 10% !important;
+        width: 100% !important;
+    }
+
+    .col {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    div {
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }

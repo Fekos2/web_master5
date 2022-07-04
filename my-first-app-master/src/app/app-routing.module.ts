@@ -7,6 +7,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
 import { CompensarComponent } from './compensar/compensar.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import { GuiasComponent } from './guias/guias.component';
+import { AdminComponent } from "./admin/admin.component";
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'guias',
     component: GuiasComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
